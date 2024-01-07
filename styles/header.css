@@ -1,10 +1,12 @@
 .search-bar{
-    flex: 1;
+    width: 500px;
     height: 36px;
     padding-left: 10px;
+    margin-left: 160px;
     font-size: 16px;
     border: 1px solid rgb(192, 192, 192);
-    border-radius: 2px;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
     box-shadow: inset 1px 2px 3px rgba(0, 0, 0, alpha);  
 
 }
@@ -37,11 +39,17 @@
     height: 24px;
     margin-right: 24px;
     margin-left: 24px;
+    cursor: pointer;
+}
 
+.lines-menu:hover{
+    background-color: rgb(235, 235, 235);
+    border-radius: 500px;
 }
 
 .youtube-logo{
     height: 20px;
+    cursor: pointer;
 }
 
 .middle-section{
@@ -56,14 +64,18 @@
 }
 
 .search-button{
-    height: 39px;
+    height: 40px;
     width: 60px;
     background-color: rgb(240, 240, 240);
     border-width: 1px;
     border-style: solid;
     border-color: rgb(192, 192, 192);
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
     margin-left: -1px;
     margin-right: 10px;
+    cursor: pointer;
+
 }
 
 .search-button,
@@ -115,35 +127,59 @@
 .voice-button{
     height: 40px;
     width: 40px;
+    align-items: center;
+    justify-content: center;
     border-radius: 20px;
     border: none;
     background-color: rgb(rgb(245, 245, 245), green, blue);
+    cursor: pointer;
 }
 
 
 .voice-icon{
+    align-items: center;
+    justify-content: center;
     height: 25px;
 }
 
+
+
 .right-section{
-    width: 180px;
+    width: 200px;
     margin-right: 24px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-shrink: 0;
+    cursor: pointer;
 }
 
+
 .upload-icon{
-    height: 24px;
+    height: 30px;
+}
+
+.upload-icon:hover{
+    background-color: rgb(235, 235, 235);
+    border-radius: 50px;
 }
 
 .app-icon{
-    height: 24px;
+    height: 30px;
+}
+
+.app-icon:hover{
+    background-color: rgb(235, 235, 235);
+    border-radius: 50px;
 }
 
 .notif-icon{
-    height: 24px;
+    height: 30px;
+}
+
+.notif-icon:hover{
+    background-color: rgb(235, 235, 235);
+    border-radius: 50px;
 }
 
 .notif-icon-container{
@@ -165,7 +201,7 @@
 }
 
 .hu-lk{
-    height: 32px;
+    height: 30px;
     width: 23px;
-    border-radius: 100px;
+    border-radius : 5000000px;
 }
